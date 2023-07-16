@@ -21,7 +21,7 @@ How to Use:
 1. Download the "sam_vit_h_4b8939.pth" file from [here](https://github.com/facebookresearch/segment-anything#model-checkpoints) and place it in the "segment-anything" directory
 2. Install the requirements from requirements.txt using 'pip install -r requirements.txt'
 3. Place test images into 'test_images' folder
-4. Run the command 'python segment.py [file-name]
+4. Run the command 'python segment.py [file-name]'
 5. See the cropped image in the 'cropped_images' folder
 
 Note:
