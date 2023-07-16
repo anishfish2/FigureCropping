@@ -14,10 +14,10 @@ if __name__ == "__main__":
     seg.segmentImage(image_path, show_bboxes=True, output_image_name="POG.jpg",
     extract_segmented_objects= True, save_extracted_objects=True)
 
-    segmask, output = seg.segmentImage("images/sample_images/sample2.jpg", extract_segmented_objects= True)
+    segmask, output = seg.segmentImage(image_path, extract_segmented_objects= True)
 
     # Specify the current file path
-    current_file_path = "segmented_object_1.jpg"
+    current_file_path = ""
 
     # Specify the new file path and name
     new_file_path = image_path.split("/")[-1]

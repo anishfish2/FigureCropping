@@ -28,7 +28,7 @@ def extract_face(image_path):
         print("No faces found in the image")
 
 # Specify the path to the input image
-input_image_path = 'transparent_images/sample3_transparent.png'
+input_image_path = ''
 
 # Extract and save the face from the input image
 extract_face(input_image_path)

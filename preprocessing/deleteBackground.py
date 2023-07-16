@@ -1,5 +1,6 @@
 import cv2
 import numpy as np
+import sys 
 
 # Function to detect person and create binary mask
 def detect_person(image_path):
@@ -30,5 +31,5 @@ def detect_person(image_path):
     cv2.imwrite(result_path, result)
 
 if __name__ == "__main__":
-    image_path = 'images/sample_images/sample1.jpeg'
+    image_path = sys.argv[1]
     detect_person(image_path)
