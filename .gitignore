@@ -40,3 +40,6 @@ _darcs
 **/node_modules
 yarn.lock
 package-lock.json
+
+#Added Files - Anish
+segment-anything\sam_vit_h_4b8939.pth
